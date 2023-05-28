@@ -1,8 +1,8 @@
 // App.tsx
 
-import Header from "./compornents/header";
-import TodayNews from "./compornents/TodayNews";
-import Topics from "./compornents/topics";
+import Header from "./compornents/header/header";
+import TodayNews from "./compornents/article/TodayNews";
+import Topics from "./compornents/article/topics";
 import './App.css';
 
 function App() {

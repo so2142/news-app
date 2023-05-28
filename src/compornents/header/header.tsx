@@ -1,10 +1,10 @@
 // header.tsx
 
 import React from "react";
-import Help from "../images/help.png";
-import Setting from "../images/setting.png";
-import Menu from "../images/menu.png";
-import Nav from "./nav";
+import Help from "../../images/help.png";
+import Setting from "../../images/setting.png";
+import Menu from "../../images/menu.png";
+import Nav from "../nav/nav";
 
 const Header = () => {
   return (

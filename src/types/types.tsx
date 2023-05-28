@@ -1,22 +1,3 @@
-import { type } from "@testing-library/user-event/dist/type";
-
-type Props = {
-    articles?: [
-        article: {
-            author: string;
-            title: string;
-            publishedAt: string;
-            url: string;
-            urlToImage: string;
-        }
-    ];
-    title?: string;
-    
-}
-
-
-
-
 type Props = {
   articles?: [
     article: {
@@ -58,4 +39,4 @@ type Props = {
   };
 };
 
-export default Props
+export default Props;
