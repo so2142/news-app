@@ -1,11 +1,13 @@
-@charset "UTF-8";
+@charset "utf-8";
+
 /* 共通 */
+
 h1, h2, h3, h4 {
-  color: #fff;
+    color: #fff;
 }
 
 a, p {
-  color: darkgray;
+    color: darkgray;
 }
 
 h1 {
@@ -36,34 +38,42 @@ a {
 }
 
 /* App */
+
 .App {
   background-color: #292A2D;
 }
 
 /* ヘッダー */
+
 .header {
   background-color: #202124;
-}
-.header-top {
-  margin: 5px 20px;
-}
-.header-hr {
-  margin: 0;
-  color: darkgray;
+
+  &-top {
+    margin: 5px 20px;
+  }
+
+  &-hr {
+    margin: 0;
+    color: darkgray;
+  }
+
 }
 
 .search {
   margin: 0 auto;
-}
-.search-form {
-  width: 60vh;
+
+    &-form {
+      width: 60vh;
+    }
+
 }
 
 .icon {
   width: 20px;
-}
-.icon-filter {
-  filter: brightness(5);
+
+    &-filter {
+      filter: brightness(5);
+    }
 }
 
 .menu {
@@ -71,19 +81,23 @@ a {
 }
 
 /* ナビゲーション */
+
 .nav {
   justify-content: space-evenly;
-}
-.nav-left, .nav-right {
+
+  &-left, &-right {
   justify-content: space-evenly;
-}
-.nav p {
-  padding: 0 20px;
+  }
+
+    p {
+        padding: 0 20px;
+    }
 }
 
+
 /* 今日のニュース */
+
 .todaydate {
   font-size: small;
   color: darkgray;
 }
-/*# sourceMappingURL=App.css.map */
