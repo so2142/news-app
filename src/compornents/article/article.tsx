@@ -1,6 +1,6 @@
 // 
 
-import * as Styles from 'App.css'
+import * as Styles from '../../scss/App.css'
 
 export const getStaticProps = async () => {
     // NewsAPIのトップ記事の情報を取得
@@ -23,8 +23,8 @@ export const getStaticProps = async () => {
 
 const Article: React.FC<props> = ({ article, title }) => {
     return (
-        <section className={styles.article}>
-            <div className={StyleSheet.article__heading}>
+        <section className={App.article}>
+            <div className={App.article__heading}>
                 <h1>{title.charAt(0).toUpperCase() + title.slice(1).toLowerCase}</h1>
             </div>
         </section>

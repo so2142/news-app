@@ -2,7 +2,7 @@
 
 import React from "react";
 import TodayDate from "./todaydate";
-import Weather from "./weather";
+import Weather from "../weather/weather";
 
 const TodayNews = () => {
     return (

@@ -3,7 +3,7 @@
 import Header from "./compornents/header/header";
 import TodayNews from "./compornents/article/TodayNews";
 import Topics from "./compornents/article/topics";
-import './App.css';
+import './scss/App.css';
 
 function App() {
   return (
